@@ -1,0 +1,29 @@
+{
+  "name": "cardiotwin-v3",
+  "private": true,
+  "version": "3.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build:js && vite --host 127.0.0.1",
+    "build:js": "node node_modules/typescript/bin/tsc -p tsconfig.build.json && node scripts/copy-js-assets.mjs",
+    "build:web": "node node_modules/vite/bin/vite.js build",
+    "build": "npm run build:js && npm run build:web",
+    "build:single": "node scripts/build-singlefile.mjs cardiotwin-v3.1.html",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node tests/explode.mjs",
+    "test:explode": "node tests/explode.mjs",
+    "test:v30": "node tests/regression-v30.mjs",
+    "test:single": "node tests/singlefile-v31.mjs",
+    "test:single:v30": "node tests/singlefile.mjs",
+    "test:perf": "node tests/hardware-perf-v31.mjs"
+  },
+  "dependencies": {
+    "three": "0.160.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.160.0",
+    "playwright-core": "1.49.1",
+    "typescript": "5.6.3",
+    "vite": "5.4.11"
+  }
+}

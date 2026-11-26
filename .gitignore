@@ -1,0 +1,25 @@
+# dependencies and generated output
+node_modules/
+dist/
+build-js/
+.vite/
+*.log
+
+# local DSH/office caches
+.dsh-office-*/
+.vscode/
+
+# historical and working assets not part of the published V9 source
+assets/v4/
+assets/v5/
+assets/v6/
+assets/v7/
+assets/v8/
+assets/v9/working/*
+!assets/v9/working/atrial-cavities.glb
+src/v9/final-bundle.js
+
+# local test/browser output
+test-results/
+playwright-report/
+coverage/

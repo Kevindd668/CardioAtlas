@@ -1,0 +1,12 @@
+{
+  "schema": "cardiotwin.v9.explode/v3",
+  "structures": 50,
+  "units": 56,
+  "autoProgress": 1.0,
+  "aabb": {
+    "L1": 116,
+    "L2": 0,
+    "L3": 0
+  },
+  "deleted": 8
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "cardiotwin.f38.clipping/v2",
+  "axes": [
+    "x",
+    "y",
+    "z"
+  ],
+  "method": "per-mesh triangle-plane segments, loop stitching, ShapeUtils triangulation",
+  "cap_material": "source structure color",
+  "known_limitation": "loops not reliably closed; caps may be absent; fallback not applied",
+  "global_convex_hull": false
+}

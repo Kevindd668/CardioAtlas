@@ -1,0 +1,2446 @@
+[
+  {
+    "id": "heart_left_ventricular_wall",
+    "nameZh": "左心室壁",
+    "nameEn": "Left ventricular wall",
+    "system": "心肌",
+    "location": "左心室外层与中层心肌",
+    "shape": "厚壁肌性结构，呈弧形包绕心腔，切面可见肌束方向。",
+    "relations": [
+      "与室间隔",
+      "二尖瓣装置和主动脉根部相邻"
+    ],
+    "function": "产生左心室收缩压，将血液泵入主动脉",
+    "clinical": [
+      "肥厚",
+      "缺血或梗死时影响左心泵血",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "超声短轴切面观察室壁厚度与运动；增强影像评估灌注。",
+    "objectives": [
+      "能在模型上定位左心室壁",
+      "能说明左心室壁的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把左心室壁与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左心室外层与中层心肌」，再记「产生左心室收缩压，将血液泵入主动脉」",
+    "quiz": [
+      {
+        "q": "左心室壁的主要功能是什么？",
+        "a": "产生左心室收缩压，将血液泵入主动脉"
+      },
+      {
+        "q": "左心室壁与哪些结构关系最密切？",
+        "a": "与室间隔、二尖瓣装置和主动脉根部相邻"
+      }
+    ],
+    "related": [
+      "heart_interventricular_septum",
+      "heart_left_ventricle",
+      "heart_right_ventricle",
+      "heart_lad"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_right_ventricular_wall",
+    "nameZh": "右心室壁",
+    "nameEn": "Right ventricular wall",
+    "system": "心肌",
+    "location": "右心室游离壁",
+    "shape": "厚壁肌性结构，呈弧形包绕心腔，切面可见肌束方向。",
+    "relations": [
+      "与室间隔",
+      "三尖瓣装置和肺动脉瓣相邻"
+    ],
+    "function": "将静脉血泵入肺动脉",
+    "clinical": [
+      "右心负荷增加可致右室肥厚或扩张",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "超声短轴切面观察室壁厚度与运动；增强影像评估灌注。",
+    "objectives": [
+      "能在模型上定位右心室壁",
+      "能说明右心室壁的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把右心室壁与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右心室游离壁」，再记「将静脉血泵入肺动脉」",
+    "quiz": [
+      {
+        "q": "右心室壁的主要功能是什么？",
+        "a": "将静脉血泵入肺动脉"
+      },
+      {
+        "q": "右心室壁与哪些结构关系最密切？",
+        "a": "与室间隔、三尖瓣装置和肺动脉瓣相邻"
+      }
+    ],
+    "related": [
+      "heart_interventricular_septum",
+      "heart_left_ventricle",
+      "heart_right_ventricle",
+      "heart_right_coronary_artery"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_interventricular_septum",
+    "nameZh": "室间隔",
+    "nameEn": "Interventricular septum",
+    "system": "心肌",
+    "location": "左右心室之间",
+    "shape": "厚壁肌性结构，呈弧形包绕心腔，切面可见肌束方向。",
+    "relations": [
+      "膜部邻近主动脉瓣",
+      "肌部连接心室壁"
+    ],
+    "function": "分隔左右心室并参与心室收缩",
+    "clinical": [
+      "室间隔缺损",
+      "肥厚型心肌病的重要部位",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "超声短轴切面观察室壁厚度与运动；增强影像评估灌注。",
+    "objectives": [
+      "能在模型上定位室间隔",
+      "能说明室间隔的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把室间隔与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左右心室之间」，再记「分隔左右心室并参与心室收缩」",
+    "quiz": [
+      {
+        "q": "室间隔的主要功能是什么？",
+        "a": "分隔左右心室并参与心室收缩"
+      },
+      {
+        "q": "室间隔与哪些结构关系最密切？",
+        "a": "膜部邻近主动脉瓣，肌部连接心室壁"
+      }
+    ],
+    "related": [
+      "heart_left_ventricle",
+      "heart_right_ventricle",
+      "heart_lad",
+      "heart_aortic_right_cusp"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_left_atrium",
+    "nameZh": "左心房",
+    "nameEn": "Left atrium",
+    "system": "心腔",
+    "location": "左心室后上方",
+    "shape": "腔面结构，表面覆盖心内膜，形态随充盈状态变化。",
+    "relations": [
+      "后方为肺静脉",
+      "下方为二尖瓣"
+    ],
+    "function": "接收肺静脉血并送入左心室",
+    "clinical": [
+      "左房扩大与房颤",
+      "二尖瓣病变相关",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "四腔心切面观察腔室大小、心内膜边界与瓣口。",
+    "objectives": [
+      "能在模型上定位左心房",
+      "能说明左心房的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把左心房与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左心室后上方」，再记「接收肺静脉血并送入左心室」",
+    "quiz": [
+      {
+        "q": "左心房的主要功能是什么？",
+        "a": "接收肺静脉血并送入左心室"
+      },
+      {
+        "q": "左心房与哪些结构关系最密切？",
+        "a": "后方为肺静脉，下方为二尖瓣"
+      }
+    ],
+    "related": [
+      "heart_right_atrium",
+      "heart_left_ventricle",
+      "heart_right_ventricle",
+      "heart_interatrial_septum"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_right_atrium",
+    "nameZh": "右心房",
+    "nameEn": "Right atrium",
+    "system": "心腔",
+    "location": "右心室后上方",
+    "shape": "腔面结构，表面覆盖心内膜，形态随充盈状态变化。",
+    "relations": [
+      "房间隔",
+      "腔静脉入口和三尖瓣"
+    ],
+    "function": "接收上下腔静脉血并送入右心室",
+    "clinical": [
+      "右房扩大可见于肺动脉高压或三尖瓣病变",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "四腔心切面观察腔室大小、心内膜边界与瓣口。",
+    "objectives": [
+      "能在模型上定位右心房",
+      "能说明右心房的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把右心房与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右心室后上方」，再记「接收上下腔静脉血并送入右心室」",
+    "quiz": [
+      {
+        "q": "右心房的主要功能是什么？",
+        "a": "接收上下腔静脉血并送入右心室"
+      },
+      {
+        "q": "右心房与哪些结构关系最密切？",
+        "a": "房间隔、腔静脉入口和三尖瓣"
+      }
+    ],
+    "related": [
+      "heart_left_atrium",
+      "heart_left_ventricle",
+      "heart_right_ventricle",
+      "heart_interatrial_septum"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_left_ventricle",
+    "nameZh": "左心室腔",
+    "nameEn": "Left ventricular cavity",
+    "system": "心腔",
+    "location": "左心房下方",
+    "shape": "腔面结构，表面覆盖心内膜，形态随充盈状态变化。",
+    "relations": [
+      "二尖瓣",
+      "主动脉瓣",
+      "室间隔"
+    ],
+    "function": "接收左房血并射入主动脉",
+    "clinical": [
+      "左室射血分数是心功能核心指标",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "四腔心切面观察腔室大小、心内膜边界与瓣口。",
+    "objectives": [
+      "能在模型上定位左心室腔",
+      "能说明左心室腔的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把左心室腔与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左心房下方」，再记「接收左房血并射入主动脉」",
+    "quiz": [
+      {
+        "q": "左心室腔的主要功能是什么？",
+        "a": "接收左房血并射入主动脉"
+      },
+      {
+        "q": "左心室腔与哪些结构关系最密切？",
+        "a": "二尖瓣、主动脉瓣、室间隔"
+      }
+    ],
+    "related": [
+      "heart_left_atrium",
+      "heart_right_atrium",
+      "heart_right_ventricle",
+      "heart_interatrial_septum"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_right_ventricle",
+    "nameZh": "右心室腔",
+    "nameEn": "Right ventricular cavity",
+    "system": "心腔",
+    "location": "右心房下方",
+    "shape": "腔面结构，表面覆盖心内膜，形态随充盈状态变化。",
+    "relations": [
+      "三尖瓣",
+      "肺动脉瓣",
+      "室间隔"
+    ],
+    "function": "接收右房血并射入肺动脉",
+    "clinical": [
+      "右室功能影响肺循环",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "四腔心切面观察腔室大小、心内膜边界与瓣口。",
+    "objectives": [
+      "能在模型上定位右心室腔",
+      "能说明右心室腔的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把右心室腔与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右心房下方」，再记「接收右房血并射入肺动脉」",
+    "quiz": [
+      {
+        "q": "右心室腔的主要功能是什么？",
+        "a": "接收右房血并射入肺动脉"
+      },
+      {
+        "q": "右心室腔与哪些结构关系最密切？",
+        "a": "三尖瓣、肺动脉瓣、室间隔"
+      }
+    ],
+    "related": [
+      "heart_left_atrium",
+      "heart_right_atrium",
+      "heart_left_ventricle",
+      "heart_interatrial_septum"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_interatrial_septum",
+    "nameZh": "房间隔",
+    "nameEn": "Interatrial septum",
+    "system": "心腔",
+    "location": "左右心房之间",
+    "shape": "腔面结构，表面覆盖心内膜，形态随充盈状态变化。",
+    "relations": [
+      "卵圆窝位于其中部",
+      "左心房",
+      "右心房",
+      "卵圆窝"
+    ],
+    "function": "分隔左右心房",
+    "clinical": [
+      "房间隔缺损",
+      "卵圆孔未闭",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "四腔心切面观察腔室大小、心内膜边界与瓣口。",
+    "objectives": [
+      "能在模型上定位房间隔",
+      "能说明房间隔的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把房间隔与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左右心房之间」，再记「分隔左右心房」",
+    "quiz": [
+      {
+        "q": "房间隔的主要功能是什么？",
+        "a": "分隔左右心房"
+      },
+      {
+        "q": "房间隔与哪些结构关系最密切？",
+        "a": "卵圆窝位于其中部"
+      }
+    ],
+    "related": [
+      "heart_left_atrium",
+      "heart_right_atrium",
+      "heart_left_ventricle",
+      "heart_right_ventricle"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_left_atrial_appendage",
+    "nameZh": "左心耳",
+    "nameEn": "Left atrial appendage",
+    "system": "心腔",
+    "location": "左心房前外侧",
+    "shape": "腔面结构，表面覆盖心内膜，形态随充盈状态变化。",
+    "relations": [
+      "邻近左肺静脉与左房壁",
+      "左心房",
+      "左肺静脉"
+    ],
+    "function": "心房附属结构，参与心房容量调节",
+    "clinical": [
+      "房颤时左心耳血栓的重要来源",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "四腔心切面观察腔室大小、心内膜边界与瓣口。",
+    "objectives": [
+      "能在模型上定位左心耳",
+      "能说明左心耳的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把左心耳与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左心房前外侧」，再记「心房附属结构，参与心房容量调节」",
+    "quiz": [
+      {
+        "q": "左心耳的主要功能是什么？",
+        "a": "心房附属结构，参与心房容量调节"
+      },
+      {
+        "q": "左心耳与哪些结构关系最密切？",
+        "a": "邻近左肺静脉与左房壁"
+      }
+    ],
+    "related": [
+      "heart_left_atrium",
+      "heart_right_atrium",
+      "heart_left_ventricle",
+      "heart_right_ventricle"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_right_atrial_appendage",
+    "nameZh": "右心耳",
+    "nameEn": "Right atrial appendage",
+    "system": "心腔",
+    "location": "右心房前外侧",
+    "shape": "腔面结构，表面覆盖心内膜，形态随充盈状态变化。",
+    "relations": [
+      "邻近上腔静脉与右房壁",
+      "右心房",
+      "上腔静脉"
+    ],
+    "function": "右心房附属结构",
+    "clinical": [
+      "起搏导线",
+      "心耳瘤等临床相关",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "四腔心切面观察腔室大小、心内膜边界与瓣口。",
+    "objectives": [
+      "能在模型上定位右心耳",
+      "能说明右心耳的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把右心耳与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右心房前外侧」，再记「右心房附属结构」",
+    "quiz": [
+      {
+        "q": "右心耳的主要功能是什么？",
+        "a": "右心房附属结构"
+      },
+      {
+        "q": "右心耳与哪些结构关系最密切？",
+        "a": "邻近上腔静脉与右房壁"
+      }
+    ],
+    "related": [
+      "heart_left_atrium",
+      "heart_right_atrium",
+      "heart_left_ventricle",
+      "heart_right_ventricle"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_mitral_anterior_leaflet",
+    "nameZh": "二尖瓣前瓣",
+    "nameEn": "Mitral anterior leaflet",
+    "system": "瓣膜",
+    "location": "左房室口前内侧",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "与后瓣",
+      "腱索",
+      "乳头肌构成二尖瓣装置"
+    ],
+    "function": "防止左心室收缩时血液反流至左房",
+    "clinical": [
+      "脱垂",
+      "腱索断裂可致二尖瓣反流",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位二尖瓣前瓣",
+      "能说明二尖瓣前瓣的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把二尖瓣前瓣与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左房室口前内侧」，再记「防止左心室收缩时血液反流至左房」",
+    "quiz": [
+      {
+        "q": "二尖瓣前瓣的主要功能是什么？",
+        "a": "防止左心室收缩时血液反流至左房"
+      },
+      {
+        "q": "二尖瓣前瓣与哪些结构关系最密切？",
+        "a": "与后瓣、腱索、乳头肌构成二尖瓣装置"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_mitral_posterior_leaflet",
+    "nameZh": "二尖瓣后瓣",
+    "nameEn": "Mitral posterior leaflet",
+    "system": "瓣膜",
+    "location": "左房室口后外侧",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "瓣环",
+      "腱索",
+      "后内侧乳头肌"
+    ],
+    "function": "与前后瓣对合，封闭二尖瓣口",
+    "clinical": [
+      "后瓣脱垂较常见",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位二尖瓣后瓣",
+      "能说明二尖瓣后瓣的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把二尖瓣后瓣与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左房室口后外侧」，再记「与前后瓣对合，封闭二尖瓣口」",
+    "quiz": [
+      {
+        "q": "二尖瓣后瓣的主要功能是什么？",
+        "a": "与前后瓣对合，封闭二尖瓣口"
+      },
+      {
+        "q": "二尖瓣后瓣与哪些结构关系最密切？",
+        "a": "瓣环、腱索、后内侧乳头肌"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_mitral_annulus",
+    "nameZh": "二尖瓣环",
+    "nameEn": "Mitral annulus",
+    "system": "瓣膜",
+    "location": "左房室口纤维环",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "邻近左房",
+      "左室与冠状动脉回旋支"
+    ],
+    "function": "提供瓣叶附着与瓣口形态",
+    "clinical": [
+      "瓣环扩张可导致功能性反流",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位二尖瓣环",
+      "能说明二尖瓣环的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把二尖瓣环与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左房室口纤维环」，再记「提供瓣叶附着与瓣口形态」",
+    "quiz": [
+      {
+        "q": "二尖瓣环的主要功能是什么？",
+        "a": "提供瓣叶附着与瓣口形态"
+      },
+      {
+        "q": "二尖瓣环与哪些结构关系最密切？",
+        "a": "邻近左房、左室与冠状动脉回旋支"
+      }
+    ],
+    "related": [
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_mitral_chordae",
+    "nameZh": "二尖瓣腱索",
+    "nameEn": "Mitral chordae tendineae",
+    "system": "瓣膜",
+    "location": "二尖瓣叶与乳头肌之间",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "连接前/后瓣与前后乳头肌",
+      "二尖瓣前瓣",
+      "二尖瓣后瓣",
+      "前外侧乳头肌"
+    ],
+    "function": "牵拉瓣叶，防止收缩期瓣叶脱入左房",
+    "clinical": [
+      "腱索断裂是急性二尖瓣反流原因之一",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位二尖瓣腱索",
+      "能说明二尖瓣腱索的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把二尖瓣腱索与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「二尖瓣叶与乳头肌之间」，再记「牵拉瓣叶，防止收缩期瓣叶脱入左房」",
+    "quiz": [
+      {
+        "q": "二尖瓣腱索的主要功能是什么？",
+        "a": "牵拉瓣叶，防止收缩期瓣叶脱入左房"
+      },
+      {
+        "q": "二尖瓣腱索与哪些结构关系最密切？",
+        "a": "连接前/后瓣与前后乳头肌"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_tricuspid_anterior_leaflet",
+    "nameZh": "三尖瓣前瓣",
+    "nameEn": "Tricuspid anterior leaflet",
+    "system": "瓣膜",
+    "location": "右房室口前部",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "与后瓣",
+      "隔瓣及腱索相连"
+    ],
+    "function": "参与关闭三尖瓣口",
+    "clinical": [
+      "反流",
+      "脱垂或感染性心内膜炎",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位三尖瓣前瓣",
+      "能说明三尖瓣前瓣的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把三尖瓣前瓣与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右房室口前部」，再记「参与关闭三尖瓣口」",
+    "quiz": [
+      {
+        "q": "三尖瓣前瓣的主要功能是什么？",
+        "a": "参与关闭三尖瓣口"
+      },
+      {
+        "q": "三尖瓣前瓣与哪些结构关系最密切？",
+        "a": "与后瓣、隔瓣及腱索相连"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_tricuspid_posterior_leaflet",
+    "nameZh": "三尖瓣后瓣",
+    "nameEn": "Tricuspid posterior leaflet",
+    "system": "瓣膜",
+    "location": "右房室口后部",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "瓣环",
+      "腱索",
+      "后乳头肌"
+    ],
+    "function": "与前后瓣对合关闭三尖瓣",
+    "clinical": [
+      "三尖瓣反流常见",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位三尖瓣后瓣",
+      "能说明三尖瓣后瓣的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把三尖瓣后瓣与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右房室口后部」，再记「与前后瓣对合关闭三尖瓣」",
+    "quiz": [
+      {
+        "q": "三尖瓣后瓣的主要功能是什么？",
+        "a": "与前后瓣对合关闭三尖瓣"
+      },
+      {
+        "q": "三尖瓣后瓣与哪些结构关系最密切？",
+        "a": "瓣环、腱索、后乳头肌"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_tricuspid_septal_leaflet",
+    "nameZh": "三尖瓣隔瓣",
+    "nameEn": "Tricuspid septal leaflet",
+    "system": "瓣膜",
+    "location": "右房室口内侧",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "邻近室间隔与房室结区域",
+      "室间隔",
+      "三尖瓣环"
+    ],
+    "function": "参与三尖瓣关闭",
+    "clinical": [
+      "隔瓣附着异常可见于Ebstein畸形",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位三尖瓣隔瓣",
+      "能说明三尖瓣隔瓣的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把三尖瓣隔瓣与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右房室口内侧」，再记「参与三尖瓣关闭」",
+    "quiz": [
+      {
+        "q": "三尖瓣隔瓣的主要功能是什么？",
+        "a": "参与三尖瓣关闭"
+      },
+      {
+        "q": "三尖瓣隔瓣与哪些结构关系最密切？",
+        "a": "邻近室间隔与房室结区域"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_tricuspid_annulus",
+    "nameZh": "三尖瓣环",
+    "nameEn": "Tricuspid annulus",
+    "system": "瓣膜",
+    "location": "右房室口纤维环",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "邻近右房",
+      "右室与冠状静脉窦"
+    ],
+    "function": "支撑三尖瓣叶",
+    "clinical": [
+      "瓣环扩张导致功能性三尖瓣反流",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位三尖瓣环",
+      "能说明三尖瓣环的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把三尖瓣环与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右房室口纤维环」，再记「支撑三尖瓣叶」",
+    "quiz": [
+      {
+        "q": "三尖瓣环的主要功能是什么？",
+        "a": "支撑三尖瓣叶"
+      },
+      {
+        "q": "三尖瓣环与哪些结构关系最密切？",
+        "a": "邻近右房、右室与冠状静脉窦"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_tricuspid_chordae",
+    "nameZh": "三尖瓣腱索",
+    "nameEn": "Tricuspid chordae tendineae",
+    "system": "瓣膜",
+    "location": "三尖瓣叶与乳头肌之间",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "连接三尖瓣叶与三组乳头肌",
+      "三尖瓣前瓣",
+      "三尖瓣后瓣",
+      "乳头肌"
+    ],
+    "function": "牵引瓣叶，防止收缩期脱垂",
+    "clinical": [
+      "腱索断裂或延长导致反流",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位三尖瓣腱索",
+      "能说明三尖瓣腱索的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把三尖瓣腱索与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「三尖瓣叶与乳头肌之间」，再记「牵引瓣叶，防止收缩期脱垂」",
+    "quiz": [
+      {
+        "q": "三尖瓣腱索的主要功能是什么？",
+        "a": "牵引瓣叶，防止收缩期脱垂"
+      },
+      {
+        "q": "三尖瓣腱索与哪些结构关系最密切？",
+        "a": "连接三尖瓣叶与三组乳头肌"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_aortic_left_cusp",
+    "nameZh": "主动脉瓣左冠瓣",
+    "nameEn": "Aortic left coronary cusp",
+    "system": "瓣膜",
+    "location": "主动脉根部左后方",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "左冠状动脉开口通常位于左冠窦",
+      "主动脉瓣环",
+      "相邻主动脉瓣叶"
+    ],
+    "function": "关闭主动脉瓣，防止舒张期反流",
+    "clinical": [
+      "二叶式主动脉瓣",
+      "狭窄或反流",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位主动脉瓣左冠瓣",
+      "能说明主动脉瓣左冠瓣的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把主动脉瓣左冠瓣与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「主动脉根部左后方」，再记「关闭主动脉瓣，防止舒张期反流」",
+    "quiz": [
+      {
+        "q": "主动脉瓣左冠瓣的主要功能是什么？",
+        "a": "关闭主动脉瓣，防止舒张期反流"
+      },
+      {
+        "q": "主动脉瓣左冠瓣与哪些结构关系最密切？",
+        "a": "左冠状动脉开口通常位于左冠窦"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_aortic_right_cusp",
+    "nameZh": "主动脉瓣右冠瓣",
+    "nameEn": "Aortic right coronary cusp",
+    "system": "瓣膜",
+    "location": "主动脉根部右前方",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "右冠状动脉开口通常位于右冠窦",
+      "主动脉瓣环",
+      "相邻主动脉瓣叶"
+    ],
+    "function": "参与主动脉瓣关闭",
+    "clinical": [
+      "主动脉瓣反流",
+      "狭窄评估",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位主动脉瓣右冠瓣",
+      "能说明主动脉瓣右冠瓣的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把主动脉瓣右冠瓣与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「主动脉根部右前方」，再记「参与主动脉瓣关闭」",
+    "quiz": [
+      {
+        "q": "主动脉瓣右冠瓣的主要功能是什么？",
+        "a": "参与主动脉瓣关闭"
+      },
+      {
+        "q": "主动脉瓣右冠瓣与哪些结构关系最密切？",
+        "a": "右冠状动脉开口通常位于右冠窦"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_aortic_noncoronary_cusp",
+    "nameZh": "主动脉瓣无冠瓣",
+    "nameEn": "Aortic non-coronary cusp",
+    "system": "瓣膜",
+    "location": "主动脉根部后部",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "与右冠瓣",
+      "左冠瓣对合"
+    ],
+    "function": "参与主动脉瓣关闭",
+    "clinical": [
+      "无冠窦邻近房室结与房间隔",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位主动脉瓣无冠瓣",
+      "能说明主动脉瓣无冠瓣的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把主动脉瓣无冠瓣与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「主动脉根部后部」，再记「参与主动脉瓣关闭」",
+    "quiz": [
+      {
+        "q": "主动脉瓣无冠瓣的主要功能是什么？",
+        "a": "参与主动脉瓣关闭"
+      },
+      {
+        "q": "主动脉瓣无冠瓣与哪些结构关系最密切？",
+        "a": "与右冠瓣、左冠瓣对合"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_aortic_annulus",
+    "nameZh": "主动脉瓣环",
+    "nameEn": "Aortic annulus",
+    "system": "瓣膜",
+    "location": "主动脉根部纤维环",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "邻近二尖瓣前叶与室间隔膜部",
+      "主动脉瓣叶",
+      "二尖瓣前叶"
+    ],
+    "function": "固定主动脉瓣叶",
+    "clinical": [
+      "瓣环钙化",
+      "脓肿或扩张",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位主动脉瓣环",
+      "能说明主动脉瓣环的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把主动脉瓣环与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「主动脉根部纤维环」，再记「固定主动脉瓣叶」",
+    "quiz": [
+      {
+        "q": "主动脉瓣环的主要功能是什么？",
+        "a": "固定主动脉瓣叶"
+      },
+      {
+        "q": "主动脉瓣环与哪些结构关系最密切？",
+        "a": "邻近二尖瓣前叶与室间隔膜部"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_pulmonary_left_cusp",
+    "nameZh": "肺动脉瓣左瓣",
+    "nameEn": "Pulmonary left cusp",
+    "system": "瓣膜",
+    "location": "右室流出道肺动脉根部",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "与右瓣",
+      "前瓣对合"
+    ],
+    "function": "防止右室舒张期血液反流",
+    "clinical": [
+      "肺动脉瓣狭窄或反流",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位肺动脉瓣左瓣",
+      "能说明肺动脉瓣左瓣的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把肺动脉瓣左瓣与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右室流出道肺动脉根部」，再记「防止右室舒张期血液反流」",
+    "quiz": [
+      {
+        "q": "肺动脉瓣左瓣的主要功能是什么？",
+        "a": "防止右室舒张期血液反流"
+      },
+      {
+        "q": "肺动脉瓣左瓣与哪些结构关系最密切？",
+        "a": "与右瓣、前瓣对合"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_pulmonary_right_cusp",
+    "nameZh": "肺动脉瓣右瓣",
+    "nameEn": "Pulmonary right cusp",
+    "system": "瓣膜",
+    "location": "右室流出道肺动脉根部",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "肺动脉干与右室流出道",
+      "肺动脉瓣环",
+      "相邻肺动脉瓣叶"
+    ],
+    "function": "参与肺动脉瓣关闭",
+    "clinical": [
+      "法洛四联症等先天畸形相关",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位肺动脉瓣右瓣",
+      "能说明肺动脉瓣右瓣的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把肺动脉瓣右瓣与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右室流出道肺动脉根部」，再记「参与肺动脉瓣关闭」",
+    "quiz": [
+      {
+        "q": "肺动脉瓣右瓣的主要功能是什么？",
+        "a": "参与肺动脉瓣关闭"
+      },
+      {
+        "q": "肺动脉瓣右瓣与哪些结构关系最密切？",
+        "a": "肺动脉干与右室流出道"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_pulmonary_anterior_cusp",
+    "nameZh": "肺动脉瓣前瓣",
+    "nameEn": "Pulmonary anterior cusp",
+    "system": "瓣膜",
+    "location": "右室流出道前部",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "邻近右室前壁与肺动脉干",
+      "肺动脉瓣环",
+      "相邻肺动脉瓣叶"
+    ],
+    "function": "参与肺动脉瓣关闭",
+    "clinical": [
+      "肺动脉瓣反流",
+      "狭窄",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位肺动脉瓣前瓣",
+      "能说明肺动脉瓣前瓣的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把肺动脉瓣前瓣与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右室流出道前部」，再记「参与肺动脉瓣关闭」",
+    "quiz": [
+      {
+        "q": "肺动脉瓣前瓣的主要功能是什么？",
+        "a": "参与肺动脉瓣关闭"
+      },
+      {
+        "q": "肺动脉瓣前瓣与哪些结构关系最密切？",
+        "a": "邻近右室前壁与肺动脉干"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_pulmonary_annulus",
+    "nameZh": "肺动脉瓣环",
+    "nameEn": "Pulmonary annulus",
+    "system": "瓣膜",
+    "location": "右室流出道与肺动脉干交界",
+    "shape": "薄片状或纤维环状结构，强调对合缘与附着缘。",
+    "relations": [
+      "右室流出道",
+      "肺动脉干"
+    ],
+    "function": "支撑肺动脉瓣",
+    "clinical": [
+      "瓣环扩张可致反流",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "经胸/经食管超声观察瓣叶厚度、对合与反流。",
+    "objectives": [
+      "能在模型上定位肺动脉瓣环",
+      "能说明肺动脉瓣环的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把肺动脉瓣环与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右室流出道与肺动脉干交界」，再记「支撑肺动脉瓣」",
+    "quiz": [
+      {
+        "q": "肺动脉瓣环的主要功能是什么？",
+        "a": "支撑肺动脉瓣"
+      },
+      {
+        "q": "肺动脉瓣环与哪些结构关系最密切？",
+        "a": "右室流出道、肺动脉干"
+      }
+    ],
+    "related": [
+      "heart_mitral_annulus",
+      "heart_tricuspid_annulus",
+      "heart_aortic_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_anterolateral_papillary_muscle",
+    "nameZh": "前外侧乳头肌",
+    "nameEn": "Anterolateral papillary muscle",
+    "system": "乳头肌",
+    "location": "左心室前外侧壁",
+    "shape": "锥形肌束，自心室壁突入腔内，尖端连接腱索。",
+    "relations": [
+      "二尖瓣前/后瓣腱索",
+      "二尖瓣腱索",
+      "左心室壁"
+    ],
+    "function": "收缩时牵拉二尖瓣腱索",
+    "clinical": [
+      "缺血可致乳头肌功能不全和反流",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "心室腔切面观察乳头肌位置与腱索连接。",
+    "objectives": [
+      "能在模型上定位前外侧乳头肌",
+      "能说明前外侧乳头肌的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把前外侧乳头肌与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左心室前外侧壁」，再记「收缩时牵拉二尖瓣腱索」",
+    "quiz": [
+      {
+        "q": "前外侧乳头肌的主要功能是什么？",
+        "a": "收缩时牵拉二尖瓣腱索"
+      },
+      {
+        "q": "前外侧乳头肌与哪些结构关系最密切？",
+        "a": "二尖瓣前/后瓣腱索"
+      }
+    ],
+    "related": [
+      "heart_mitral_chordae",
+      "heart_tricuspid_chordae"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_posteromedial_papillary_muscle",
+    "nameZh": "后内侧乳头肌",
+    "nameEn": "Posteromedial papillary muscle",
+    "system": "乳头肌",
+    "location": "左心室后内侧壁",
+    "shape": "锥形肌束，自心室壁突入腔内，尖端连接腱索。",
+    "relations": [
+      "二尖瓣后瓣及腱索",
+      "二尖瓣腱索",
+      "左心室壁"
+    ],
+    "function": "牵拉二尖瓣腱索",
+    "clinical": [
+      "后内侧乳头肌血供较脆弱",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "心室腔切面观察乳头肌位置与腱索连接。",
+    "objectives": [
+      "能在模型上定位后内侧乳头肌",
+      "能说明后内侧乳头肌的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把后内侧乳头肌与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左心室后内侧壁」，再记「牵拉二尖瓣腱索」",
+    "quiz": [
+      {
+        "q": "后内侧乳头肌的主要功能是什么？",
+        "a": "牵拉二尖瓣腱索"
+      },
+      {
+        "q": "后内侧乳头肌与哪些结构关系最密切？",
+        "a": "二尖瓣后瓣及腱索"
+      }
+    ],
+    "related": [
+      "heart_mitral_chordae",
+      "heart_tricuspid_chordae",
+      "heart_anterolateral_papillary_muscle"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_tricuspid_anterior_papillary",
+    "nameZh": "三尖瓣前乳头肌",
+    "nameEn": "Tricuspid anterior papillary muscle",
+    "system": "乳头肌",
+    "location": "右心室前壁",
+    "shape": "锥形肌束，自心室壁突入腔内，尖端连接腱索。",
+    "relations": [
+      "三尖瓣前瓣",
+      "三尖瓣腱索",
+      "右心室壁"
+    ],
+    "function": "牵拉三尖瓣前瓣腱索",
+    "clinical": [
+      "右室缺血或扩张可影响功能",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "心室腔切面观察乳头肌位置与腱索连接。",
+    "objectives": [
+      "能在模型上定位三尖瓣前乳头肌",
+      "能说明三尖瓣前乳头肌的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把三尖瓣前乳头肌与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右心室前壁」，再记「牵拉三尖瓣前瓣腱索」",
+    "quiz": [
+      {
+        "q": "三尖瓣前乳头肌的主要功能是什么？",
+        "a": "牵拉三尖瓣前瓣腱索"
+      },
+      {
+        "q": "三尖瓣前乳头肌与哪些结构关系最密切？",
+        "a": "三尖瓣前瓣"
+      }
+    ],
+    "related": [
+      "heart_mitral_chordae",
+      "heart_tricuspid_chordae",
+      "heart_anterolateral_papillary_muscle"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_tricuspid_posterior_papillary",
+    "nameZh": "三尖瓣后乳头肌",
+    "nameEn": "Tricuspid posterior papillary muscle",
+    "system": "乳头肌",
+    "location": "右心室后壁",
+    "shape": "锥形肌束，自心室壁突入腔内，尖端连接腱索。",
+    "relations": [
+      "三尖瓣后瓣",
+      "三尖瓣腱索",
+      "右心室壁"
+    ],
+    "function": "牵拉三尖瓣后瓣腱索",
+    "clinical": [
+      "三尖瓣反流评估",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "心室腔切面观察乳头肌位置与腱索连接。",
+    "objectives": [
+      "能在模型上定位三尖瓣后乳头肌",
+      "能说明三尖瓣后乳头肌的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把三尖瓣后乳头肌与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右心室后壁」，再记「牵拉三尖瓣后瓣腱索」",
+    "quiz": [
+      {
+        "q": "三尖瓣后乳头肌的主要功能是什么？",
+        "a": "牵拉三尖瓣后瓣腱索"
+      },
+      {
+        "q": "三尖瓣后乳头肌与哪些结构关系最密切？",
+        "a": "三尖瓣后瓣"
+      }
+    ],
+    "related": [
+      "heart_mitral_chordae",
+      "heart_tricuspid_chordae",
+      "heart_anterolateral_papillary_muscle"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_tricuspid_septal_papillary",
+    "nameZh": "三尖瓣隔乳头肌",
+    "nameEn": "Tricuspid septal papillary muscle",
+    "system": "乳头肌",
+    "location": "右心室间隔面",
+    "shape": "锥形肌束，自心室壁突入腔内，尖端连接腱索。",
+    "relations": [
+      "三尖瓣隔瓣",
+      "三尖瓣腱索",
+      "室间隔"
+    ],
+    "function": "牵拉三尖瓣隔瓣腱索",
+    "clinical": [
+      "右室间隔部结构",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "心室腔切面观察乳头肌位置与腱索连接。",
+    "objectives": [
+      "能在模型上定位三尖瓣隔乳头肌",
+      "能说明三尖瓣隔乳头肌的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把三尖瓣隔乳头肌与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右心室间隔面」，再记「牵拉三尖瓣隔瓣腱索」",
+    "quiz": [
+      {
+        "q": "三尖瓣隔乳头肌的主要功能是什么？",
+        "a": "牵拉三尖瓣隔瓣腱索"
+      },
+      {
+        "q": "三尖瓣隔乳头肌与哪些结构关系最密切？",
+        "a": "三尖瓣隔瓣"
+      }
+    ],
+    "related": [
+      "heart_mitral_chordae",
+      "heart_tricuspid_chordae",
+      "heart_anterolateral_papillary_muscle"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_aorta",
+    "nameZh": "主动脉",
+    "nameEn": "Aorta",
+    "system": "大血管",
+    "location": "左心室流出道向上",
+    "shape": "管状结构，具有外膜、中膜与内膜层次，管腔连续。",
+    "relations": [
+      "主动脉瓣",
+      "弓上分支",
+      "降主动脉"
+    ],
+    "function": "将左心室血输送至体循环",
+    "clinical": [
+      "主动脉瘤",
+      "夹层",
+      "缩窄",
+      "观察结构完整性、毗邻关系与功能状态"
+    ],
+    "imaging": "CT/MR 观察管腔、管壁与分支关系。",
+    "objectives": [
+      "能在模型上定位主动脉",
+      "能说明主动脉的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把主动脉与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左心室流出道向上」，再记「将左心室血输送至体循环」",
+    "quiz": [
+      {
+        "q": "主动脉的主要功能是什么？",
+        "a": "将左心室血输送至体循环"
+      },
+      {
+        "q": "主动脉与哪些结构关系最密切？",
+        "a": "主动脉瓣、弓上分支、降主动脉"
+      }
+    ],
+    "related": [
+      "heart_pulmonary_trunk",
+      "heart_superior_vena_cava",
+      "heart_inferior_vena_cava",
+      "heart_aortic_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_pulmonary_trunk",
+    "nameZh": "肺动脉干",
+    "nameEn": "Pulmonary trunk",
+    "system": "大血管",
+    "location": "右心室流出道向上",
+    "shape": "管状结构，具有外膜、中膜与内膜层次，管腔连续。",
+    "relations": [
+      "肺动脉瓣",
+      "左右肺动脉"
+    ],
+    "function": "将右心室血送至左右肺动脉",
+    "clinical": [
+      "肺动脉栓塞",
+      "肺动脉高压",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CT/MR 观察管腔、管壁与分支关系。",
+    "objectives": [
+      "能在模型上定位肺动脉干",
+      "能说明肺动脉干的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把肺动脉干与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右心室流出道向上」，再记「将右心室血送至左右肺动脉」",
+    "quiz": [
+      {
+        "q": "肺动脉干的主要功能是什么？",
+        "a": "将右心室血送至左右肺动脉"
+      },
+      {
+        "q": "肺动脉干与哪些结构关系最密切？",
+        "a": "肺动脉瓣、左右肺动脉"
+      }
+    ],
+    "related": [
+      "heart_aorta",
+      "heart_superior_vena_cava",
+      "heart_inferior_vena_cava",
+      "heart_pulmonary_annulus"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_left_pulmonary_artery",
+    "nameZh": "左肺动脉",
+    "nameEn": "Left pulmonary artery",
+    "system": "大血管",
+    "location": "肺动脉干左侧",
+    "shape": "管状结构，具有外膜、中膜与内膜层次，管腔连续。",
+    "relations": [
+      "左主支气管",
+      "左肺门"
+    ],
+    "function": "向左肺输送静脉血",
+    "clinical": [
+      "肺动脉栓塞",
+      "狭窄",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CT/MR 观察管腔、管壁与分支关系。",
+    "objectives": [
+      "能在模型上定位左肺动脉",
+      "能说明左肺动脉的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把左肺动脉与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「肺动脉干左侧」，再记「向左肺输送静脉血」",
+    "quiz": [
+      {
+        "q": "左肺动脉的主要功能是什么？",
+        "a": "向左肺输送静脉血"
+      },
+      {
+        "q": "左肺动脉与哪些结构关系最密切？",
+        "a": "左主支气管、左肺门"
+      }
+    ],
+    "related": [
+      "heart_aorta",
+      "heart_pulmonary_trunk",
+      "heart_superior_vena_cava",
+      "heart_inferior_vena_cava"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_right_pulmonary_artery",
+    "nameZh": "右肺动脉",
+    "nameEn": "Right pulmonary artery",
+    "system": "大血管",
+    "location": "肺动脉干右侧",
+    "shape": "管状结构，具有外膜、中膜与内膜层次，管腔连续。",
+    "relations": [
+      "右主支气管",
+      "右肺门"
+    ],
+    "function": "向右肺输送静脉血",
+    "clinical": [
+      "肺栓塞",
+      "肺动脉高压",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CT/MR 观察管腔、管壁与分支关系。",
+    "objectives": [
+      "能在模型上定位右肺动脉",
+      "能说明右肺动脉的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把右肺动脉与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「肺动脉干右侧」，再记「向右肺输送静脉血」",
+    "quiz": [
+      {
+        "q": "右肺动脉的主要功能是什么？",
+        "a": "向右肺输送静脉血"
+      },
+      {
+        "q": "右肺动脉与哪些结构关系最密切？",
+        "a": "右主支气管、右肺门"
+      }
+    ],
+    "related": [
+      "heart_aorta",
+      "heart_pulmonary_trunk",
+      "heart_superior_vena_cava",
+      "heart_inferior_vena_cava"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_superior_vena_cava",
+    "nameZh": "上腔静脉",
+    "nameEn": "Superior vena cava",
+    "system": "大血管",
+    "location": "右心房上方",
+    "shape": "管状结构，具有外膜、中膜与内膜层次，管腔连续。",
+    "relations": [
+      "右心房",
+      "头臂静脉"
+    ],
+    "function": "回收头颈、上肢和胸壁静脉血",
+    "clinical": [
+      "上腔静脉综合征",
+      "中心静脉置管",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CT/MR 观察管腔、管壁与分支关系。",
+    "objectives": [
+      "能在模型上定位上腔静脉",
+      "能说明上腔静脉的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把上腔静脉与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右心房上方」，再记「回收头颈、上肢和胸壁静脉血」",
+    "quiz": [
+      {
+        "q": "上腔静脉的主要功能是什么？",
+        "a": "回收头颈、上肢和胸壁静脉血"
+      },
+      {
+        "q": "上腔静脉与哪些结构关系最密切？",
+        "a": "右心房、头臂静脉"
+      }
+    ],
+    "related": [
+      "heart_aorta",
+      "heart_pulmonary_trunk",
+      "heart_inferior_vena_cava"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_inferior_vena_cava",
+    "nameZh": "下腔静脉",
+    "nameEn": "Inferior vena cava",
+    "system": "大血管",
+    "location": "右心房下方",
+    "shape": "管状结构，具有外膜、中膜与内膜层次，管腔连续。",
+    "relations": [
+      "右心房",
+      "肝静脉"
+    ],
+    "function": "回收下半身静脉血",
+    "clinical": [
+      "下腔静脉滤器",
+      "血栓",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CT/MR 观察管腔、管壁与分支关系。",
+    "objectives": [
+      "能在模型上定位下腔静脉",
+      "能说明下腔静脉的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把下腔静脉与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右心房下方」，再记「回收下半身静脉血」",
+    "quiz": [
+      {
+        "q": "下腔静脉的主要功能是什么？",
+        "a": "回收下半身静脉血"
+      },
+      {
+        "q": "下腔静脉与哪些结构关系最密切？",
+        "a": "右心房、肝静脉"
+      }
+    ],
+    "related": [
+      "heart_aorta",
+      "heart_pulmonary_trunk",
+      "heart_superior_vena_cava"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_left_superior_pulmonary_vein",
+    "nameZh": "左上肺静脉",
+    "nameEn": "Left superior pulmonary vein",
+    "system": "大血管",
+    "location": "左肺门至左心房",
+    "shape": "管状结构，具有外膜、中膜与内膜层次，管腔连续。",
+    "relations": [
+      "左心房后壁",
+      "左心房",
+      "左肺门"
+    ],
+    "function": "将左肺上叶氧合血送回左房",
+    "clinical": [
+      "房颤肺静脉隔离靶点",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CT/MR 观察管腔、管壁与分支关系。",
+    "objectives": [
+      "能在模型上定位左上肺静脉",
+      "能说明左上肺静脉的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把左上肺静脉与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左肺门至左心房」，再记「将左肺上叶氧合血送回左房」",
+    "quiz": [
+      {
+        "q": "左上肺静脉的主要功能是什么？",
+        "a": "将左肺上叶氧合血送回左房"
+      },
+      {
+        "q": "左上肺静脉与哪些结构关系最密切？",
+        "a": "左心房后壁"
+      }
+    ],
+    "related": [
+      "heart_aorta",
+      "heart_pulmonary_trunk",
+      "heart_superior_vena_cava",
+      "heart_inferior_vena_cava"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_left_inferior_pulmonary_vein",
+    "nameZh": "左下肺静脉",
+    "nameEn": "Left inferior pulmonary vein",
+    "system": "大血管",
+    "location": "左肺门至左心房",
+    "shape": "管状结构，具有外膜、中膜与内膜层次，管腔连续。",
+    "relations": [
+      "左心房后壁",
+      "左心房",
+      "左肺门"
+    ],
+    "function": "将左肺下叶氧合血送回左房",
+    "clinical": [
+      "肺静脉狭窄",
+      "房颤消融",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CT/MR 观察管腔、管壁与分支关系。",
+    "objectives": [
+      "能在模型上定位左下肺静脉",
+      "能说明左下肺静脉的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把左下肺静脉与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左肺门至左心房」，再记「将左肺下叶氧合血送回左房」",
+    "quiz": [
+      {
+        "q": "左下肺静脉的主要功能是什么？",
+        "a": "将左肺下叶氧合血送回左房"
+      },
+      {
+        "q": "左下肺静脉与哪些结构关系最密切？",
+        "a": "左心房后壁"
+      }
+    ],
+    "related": [
+      "heart_aorta",
+      "heart_pulmonary_trunk",
+      "heart_superior_vena_cava",
+      "heart_inferior_vena_cava"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_right_superior_pulmonary_vein",
+    "nameZh": "右上肺静脉",
+    "nameEn": "Right superior pulmonary vein",
+    "system": "大血管",
+    "location": "右肺门至右心房后方",
+    "shape": "管状结构，具有外膜、中膜与内膜层次，管腔连续。",
+    "relations": [
+      "左心房后壁",
+      "左心房",
+      "右肺门"
+    ],
+    "function": "将右肺上叶氧合血送回左房",
+    "clinical": [
+      "房颤肺静脉隔离靶点",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CT/MR 观察管腔、管壁与分支关系。",
+    "objectives": [
+      "能在模型上定位右上肺静脉",
+      "能说明右上肺静脉的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把右上肺静脉与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右肺门至右心房后方」，再记「将右肺上叶氧合血送回左房」",
+    "quiz": [
+      {
+        "q": "右上肺静脉的主要功能是什么？",
+        "a": "将右肺上叶氧合血送回左房"
+      },
+      {
+        "q": "右上肺静脉与哪些结构关系最密切？",
+        "a": "左心房后壁"
+      }
+    ],
+    "related": [
+      "heart_aorta",
+      "heart_pulmonary_trunk",
+      "heart_superior_vena_cava",
+      "heart_inferior_vena_cava"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_right_inferior_pulmonary_vein",
+    "nameZh": "右下肺静脉",
+    "nameEn": "Right inferior pulmonary vein",
+    "system": "大血管",
+    "location": "右肺门至左心房",
+    "shape": "管状结构，具有外膜、中膜与内膜层次，管腔连续。",
+    "relations": [
+      "左心房后壁",
+      "左心房",
+      "右肺门"
+    ],
+    "function": "将右肺下叶氧合血送回左房",
+    "clinical": [
+      "肺静脉狭窄",
+      "房颤消融",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CT/MR 观察管腔、管壁与分支关系。",
+    "objectives": [
+      "能在模型上定位右下肺静脉",
+      "能说明右下肺静脉的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把右下肺静脉与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右肺门至左心房」，再记「将右肺下叶氧合血送回左房」",
+    "quiz": [
+      {
+        "q": "右下肺静脉的主要功能是什么？",
+        "a": "将右肺下叶氧合血送回左房"
+      },
+      {
+        "q": "右下肺静脉与哪些结构关系最密切？",
+        "a": "左心房后壁"
+      }
+    ],
+    "related": [
+      "heart_aorta",
+      "heart_pulmonary_trunk",
+      "heart_superior_vena_cava",
+      "heart_inferior_vena_cava"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_left_coronary_artery",
+    "nameZh": "左冠状动脉主干",
+    "nameEn": "Left main coronary artery",
+    "system": "冠状动脉",
+    "location": "主动脉左冠窦",
+    "shape": "沿心外膜走行的分支管状结构，管径逐渐变细。",
+    "relations": [
+      "分叉为LAD和LCX",
+      "主动脉左冠窦",
+      "LAD",
+      "LCX"
+    ],
+    "function": "供应左心室前壁和侧壁",
+    "clinical": [
+      "左主干狭窄风险高",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CTA 观察起源、走行、管腔与分支。",
+    "objectives": [
+      "能在模型上定位左冠状动脉主干",
+      "能说明左冠状动脉主干的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把左冠状动脉主干与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「主动脉左冠窦」，再记「供应左心室前壁和侧壁」",
+    "quiz": [
+      {
+        "q": "左冠状动脉主干的主要功能是什么？",
+        "a": "供应左心室前壁和侧壁"
+      },
+      {
+        "q": "左冠状动脉主干与哪些结构关系最密切？",
+        "a": "分叉为LAD和LCX"
+      }
+    ],
+    "related": [
+      "heart_lad",
+      "heart_lcx",
+      "heart_right_coronary_artery"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_lad",
+    "nameZh": "LAD",
+    "nameEn": "Left anterior descending artery",
+    "system": "冠状动脉",
+    "location": "前室间沟",
+    "shape": "沿心外膜走行的分支管状结构，管径逐渐变细。",
+    "relations": [
+      "左主干",
+      "对角支",
+      "室间隔支"
+    ],
+    "function": "供应左室前壁、室间隔前2/3",
+    "clinical": [
+      "前壁心肌梗死常见责任血管",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CTA 观察起源、走行、管腔与分支。",
+    "objectives": [
+      "能在模型上定位LAD",
+      "能说明LAD的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把LAD与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「前室间沟」，再记「供应左室前壁、室间隔前2/3」",
+    "quiz": [
+      {
+        "q": "LAD的主要功能是什么？",
+        "a": "供应左室前壁、室间隔前2/3"
+      },
+      {
+        "q": "LAD与哪些结构关系最密切？",
+        "a": "左主干、对角支、室间隔支"
+      }
+    ],
+    "related": [
+      "heart_left_coronary_artery",
+      "heart_lcx",
+      "heart_right_coronary_artery",
+      "heart_diagonal_branch"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_lcx",
+    "nameZh": "LCX",
+    "nameEn": "Left circumflex artery",
+    "system": "冠状动脉",
+    "location": "左房室沟",
+    "shape": "沿心外膜走行的分支管状结构，管径逐渐变细。",
+    "relations": [
+      "左主干",
+      "钝缘支"
+    ],
+    "function": "供应左室侧壁、后壁",
+    "clinical": [
+      "侧壁缺血",
+      "梗死",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CTA 观察起源、走行、管腔与分支。",
+    "objectives": [
+      "能在模型上定位LCX",
+      "能说明LCX的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把LCX与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左房室沟」，再记「供应左室侧壁、后壁」",
+    "quiz": [
+      {
+        "q": "LCX的主要功能是什么？",
+        "a": "供应左室侧壁、后壁"
+      },
+      {
+        "q": "LCX与哪些结构关系最密切？",
+        "a": "左主干、钝缘支"
+      }
+    ],
+    "related": [
+      "heart_left_coronary_artery",
+      "heart_lad",
+      "heart_right_coronary_artery",
+      "heart_marginal_branch"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_right_coronary_artery",
+    "nameZh": "右冠状动脉主干",
+    "nameEn": "Right coronary artery",
+    "system": "冠状动脉",
+    "location": "右房室沟",
+    "shape": "沿心外膜走行的分支管状结构，管径逐渐变细。",
+    "relations": [
+      "右冠窦",
+      "PDA",
+      "边缘支"
+    ],
+    "function": "供应右室、下壁、房室结",
+    "clinical": [
+      "下壁梗死",
+      "房室传导阻滞",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CTA 观察起源、走行、管腔与分支。",
+    "objectives": [
+      "能在模型上定位右冠状动脉主干",
+      "能说明右冠状动脉主干的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把右冠状动脉主干与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右房室沟」，再记「供应右室、下壁、房室结」",
+    "quiz": [
+      {
+        "q": "右冠状动脉主干的主要功能是什么？",
+        "a": "供应右室、下壁、房室结"
+      },
+      {
+        "q": "右冠状动脉主干与哪些结构关系最密切？",
+        "a": "右冠窦、PDA、边缘支"
+      }
+    ],
+    "related": [
+      "heart_left_coronary_artery",
+      "heart_lad",
+      "heart_lcx",
+      "heart_pda"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_pda",
+    "nameZh": "RCA 后室间支",
+    "nameEn": "Posterior descending artery",
+    "system": "冠状动脉",
+    "location": "下壁后室间沟",
+    "shape": "沿心外膜走行的分支管状结构，管径逐渐变细。",
+    "relations": [
+      "右冠状动脉或LCX",
+      "后室间沟",
+      "右冠状动脉",
+      "LCX"
+    ],
+    "function": "供应下壁及后室间隔",
+    "clinical": [
+      "下壁",
+      "后壁梗死",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CTA 观察起源、走行、管腔与分支。",
+    "objectives": [
+      "能在模型上定位RCA 后室间支",
+      "能说明RCA 后室间支的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把RCA 后室间支与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「下壁后室间沟」，再记「供应下壁及后室间隔」",
+    "quiz": [
+      {
+        "q": "RCA 后室间支的主要功能是什么？",
+        "a": "供应下壁及后室间隔"
+      },
+      {
+        "q": "RCA 后室间支与哪些结构关系最密切？",
+        "a": "右冠状动脉或LCX"
+      }
+    ],
+    "related": [
+      "heart_left_coronary_artery",
+      "heart_lad",
+      "heart_lcx",
+      "heart_right_coronary_artery"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_marginal_branch",
+    "nameZh": "RCA 边缘支",
+    "nameEn": "Right marginal branch",
+    "system": "冠状动脉",
+    "location": "右室游离壁",
+    "shape": "沿心外膜走行的分支管状结构，管径逐渐变细。",
+    "relations": [
+      "右冠状动脉",
+      "右心室壁"
+    ],
+    "function": "供应右室侧壁",
+    "clinical": [
+      "右室缺血",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CTA 观察起源、走行、管腔与分支。",
+    "objectives": [
+      "能在模型上定位RCA 边缘支",
+      "能说明RCA 边缘支的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把RCA 边缘支与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右室游离壁」，再记「供应右室侧壁」",
+    "quiz": [
+      {
+        "q": "RCA 边缘支的主要功能是什么？",
+        "a": "供应右室侧壁"
+      },
+      {
+        "q": "RCA 边缘支与哪些结构关系最密切？",
+        "a": "右冠状动脉"
+      }
+    ],
+    "related": [
+      "heart_left_coronary_artery",
+      "heart_lad",
+      "heart_lcx",
+      "heart_right_coronary_artery"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_diagonal_branch",
+    "nameZh": "LAD 对角支",
+    "nameEn": "Left diagonal branch",
+    "system": "冠状动脉",
+    "location": "左室前侧壁",
+    "shape": "沿心外膜走行的分支管状结构，管径逐渐变细。",
+    "relations": [
+      "LAD",
+      "左心室壁"
+    ],
+    "function": "供应左室前侧壁",
+    "clinical": [
+      "对角支病变致侧壁缺血",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CTA 观察起源、走行、管腔与分支。",
+    "objectives": [
+      "能在模型上定位LAD 对角支",
+      "能说明LAD 对角支的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把LAD 对角支与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「左室前侧壁」，再记「供应左室前侧壁」",
+    "quiz": [
+      {
+        "q": "LAD 对角支的主要功能是什么？",
+        "a": "供应左室前侧壁"
+      },
+      {
+        "q": "LAD 对角支与哪些结构关系最密切？",
+        "a": "LAD"
+      }
+    ],
+    "related": [
+      "heart_left_coronary_artery",
+      "heart_lad",
+      "heart_lcx",
+      "heart_right_coronary_artery"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  },
+  {
+    "id": "heart_rca_first_anterior_branch",
+    "nameZh": "RCA 前室支",
+    "nameEn": "Right anterior ventricular branch",
+    "system": "冠状动脉",
+    "location": "右室前壁",
+    "shape": "沿心外膜走行的分支管状结构，管径逐渐变细。",
+    "relations": [
+      "右冠状动脉",
+      "右心室壁"
+    ],
+    "function": "供应右室前壁",
+    "clinical": [
+      "右室前壁缺血",
+      "观察结构完整性、毗邻关系与功能状态",
+      "结合影像与标本切面理解正常解剖"
+    ],
+    "imaging": "CTA 观察起源、走行、管腔与分支。",
+    "objectives": [
+      "能在模型上定位RCA 前室支",
+      "能说明RCA 前室支的正常功能与毗邻关系"
+    ],
+    "pitfalls": [
+      "不要把RCA 前室支与同系统相邻结构混为一体",
+      "注意其位置、附着与功能不是同一概念"
+    ],
+    "memoryTip": "先定位「右室前壁」，再记「供应右室前壁」",
+    "quiz": [
+      {
+        "q": "RCA 前室支的主要功能是什么？",
+        "a": "供应右室前壁"
+      },
+      {
+        "q": "RCA 前室支与哪些结构关系最密切？",
+        "a": "右冠状动脉"
+      }
+    ],
+    "related": [
+      "heart_left_coronary_artery",
+      "heart_lad",
+      "heart_lcx",
+      "heart_right_coronary_artery"
+    ],
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ]
+  }
+]

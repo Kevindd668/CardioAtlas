@@ -1,0 +1,354 @@
+{
+  "method": "direct accessor; custom Laplacian 0.18",
+  "patched": 21,
+  "report": [
+    {
+      "id": "heart_left_ventricular_wall",
+      "it": 1,
+      "dv": 0.007,
+      "shift": 0.036
+    },
+    {
+      "id": "heart_right_ventricular_wall",
+      "it": 1,
+      "dv": 0.013,
+      "shift": 0.052
+    },
+    {
+      "id": "heart_interventricular_septum",
+      "it": 1,
+      "dv": 0.052,
+      "shift": 0.033
+    },
+    {
+      "id": "heart_left_atrium",
+      "it": 1,
+      "dv": 0.002,
+      "shift": 0.043
+    },
+    {
+      "id": "heart_right_atrium",
+      "it": 1,
+      "dv": 0.003,
+      "shift": 0.003
+    },
+    {
+      "id": "heart_left_ventricle",
+      "it": 1,
+      "dv": 0.008,
+      "shift": 0.02
+    },
+    {
+      "id": "heart_right_ventricle",
+      "it": 1,
+      "dv": 0.005,
+      "shift": 0.015
+    },
+    {
+      "id": "heart_interatrial_septum",
+      "it": 1,
+      "dv": 0.006,
+      "shift": 0.006
+    },
+    {
+      "id": "heart_left_atrial_appendage",
+      "it": 1,
+      "dv": 0.026,
+      "shift": 0.047
+    },
+    {
+      "id": "heart_right_atrial_appendage",
+      "it": 1,
+      "dv": 0.019,
+      "shift": 0.1
+    },
+    {
+      "id": "heart_mitral_anterior_leaflet",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_mitral_posterior_leaflet",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_mitral_annulus",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_mitral_chordae",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_tricuspid_anterior_leaflet",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_tricuspid_posterior_leaflet",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_tricuspid_septal_leaflet",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_tricuspid_annulus",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_tricuspid_chordae",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_aortic_left_cusp",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_aortic_right_cusp",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_aortic_noncoronary_cusp",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_aortic_annulus",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_pulmonary_left_cusp",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_pulmonary_right_cusp",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_pulmonary_anterior_cusp",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_pulmonary_annulus",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_anterolateral_papillary_muscle",
+      "it": 1,
+      "dv": 0.019,
+      "shift": 0.012
+    },
+    {
+      "id": "heart_posteromedial_papillary_muscle",
+      "it": 1,
+      "dv": 0.025,
+      "shift": 0.016
+    },
+    {
+      "id": "heart_tricuspid_anterior_papillary",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_tricuspid_posterior_papillary",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_tricuspid_septal_papillary",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_aorta",
+      "it": 0,
+      "dv": 8.764,
+      "shift": 0.014
+    },
+    {
+      "id": "heart_pulmonary_trunk",
+      "it": 1,
+      "dv": 0.035,
+      "shift": 0.242
+    },
+    {
+      "id": "heart_left_pulmonary_artery",
+      "it": 1,
+      "dv": 0.018,
+      "shift": 0.142
+    },
+    {
+      "id": "heart_right_pulmonary_artery",
+      "it": 1,
+      "dv": 0.021,
+      "shift": 0.034
+    },
+    {
+      "id": "heart_superior_vena_cava",
+      "it": 0,
+      "dv": 10.604,
+      "shift": 0.004
+    },
+    {
+      "id": "heart_inferior_vena_cava",
+      "it": 0,
+      "dv": 12.404,
+      "shift": 0.008
+    },
+    {
+      "id": "heart_left_superior_pulmonary_vein",
+      "it": 0,
+      "dv": 7.194,
+      "shift": 0.01
+    },
+    {
+      "id": "heart_left_inferior_pulmonary_vein",
+      "it": 0,
+      "dv": 4.032,
+      "shift": 0.01
+    },
+    {
+      "id": "heart_right_superior_pulmonary_vein",
+      "it": 0,
+      "dv": 7.401,
+      "shift": 0.006
+    },
+    {
+      "id": "heart_right_inferior_pulmonary_vein",
+      "it": 0,
+      "dv": 8.741,
+      "shift": 0.016
+    },
+    {
+      "id": "heart_descending_thoracic_aorta",
+      "it": 1,
+      "dv": 0.01,
+      "shift": 0.018
+    },
+    {
+      "id": "heart_brachiocephalic_trunk",
+      "it": 1,
+      "dv": 0.008,
+      "shift": 0.01
+    },
+    {
+      "id": "heart_left_common_carotid",
+      "it": 1,
+      "dv": 0.057,
+      "shift": 0.009
+    },
+    {
+      "id": "heart_left_subclavian",
+      "it": 1,
+      "dv": 0.076,
+      "shift": 0.01
+    },
+    {
+      "id": "heart_brachiocephalic_vein_confluence",
+      "it": 0,
+      "dv": 1.493,
+      "shift": 0.014
+    },
+    {
+      "id": "heart_left_coronary_artery",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_lad",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_lcx",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_right_coronary_artery",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_pda",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_marginal_branch",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_diagonal_branch",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_rca_first_anterior_branch",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_coronary_obtuse_marginal_branch",
+      "it": 0,
+      "dv": 0.0,
+      "shift": 0.0
+    },
+    {
+      "id": "heart_left_atrial_cavity",
+      "it": 1,
+      "dv": 0.008,
+      "shift": 0.048
+    },
+    {
+      "id": "heart_right_atrial_cavity",
+      "it": 1,
+      "dv": 0.003,
+      "shift": 0.005
+    }
+  ]
+}

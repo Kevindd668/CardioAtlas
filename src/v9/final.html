@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CardioTwin · Final Heart</title>
+<style>
+:root{color-scheme:dark;--bg:#06111d;--panel:#0c1928;--line:#23384c;--text:#e9f0f7;--muted:#9db1c5;--faint:#60768c;--cyan:#6fd3f2;--gold:#d8b36b}
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:"Segoe UI","Microsoft YaHei UI",sans-serif}
+#app{display:grid;grid-template-columns:300px minmax(0,1fr) clamp(360px,30vw,440px);height:100%}
+aside{background:linear-gradient(180deg,#0c1928,#07111d);overflow:auto;padding:14px}aside:first-child{border-right:1px solid var(--line)}#info{border-left:1px solid var(--line)}
+h1{font-size:17px;margin:0 0 3px}.eyebrow{font:8px Consolas,monospace;letter-spacing:.13em;color:var(--faint)}
+.warn{margin:10px 0;padding:8px;border-left:2px solid var(--gold);background:rgba(216,179,107,.06);color:var(--faint);font-size:8px;line-height:1.6}
+.section{margin:11px 0 0;padding-top:8px;border-top:1px solid var(--line)}.section h2{font-size:8px;color:var(--cyan);letter-spacing:.12em;margin:0 0 6px;font-weight:500}
+.buttons{display:flex;flex-wrap:wrap;gap:4px;margin:5px 0}button{border:1px solid var(--line);background:#0a1522;color:var(--muted);padding:5px 7px;font:inherit;font-size:9px;cursor:pointer}button:hover,button.on{border-color:var(--cyan);color:var(--text)}button.on{color:var(--gold);border-color:var(--gold)}
+.row{display:flex;align-items:center;gap:6px;padding:2px 0;font-size:9px;color:var(--muted)}.row input{accent-color:var(--cyan);width:11px;height:11px}.row button{flex:1;text-align:left;border:0;background:transparent;padding:2px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.row button.active{color:var(--gold)}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--dot,#60758b);flex:none}
+#stage{position:relative;min-width:0;min-height:0;background:radial-gradient(ellipse at 52% 42%,#102d40 0%,#06111d 68%)}#viewer{width:100%;height:100%;display:block}
+.hud{position:absolute;left:15px;top:12px;color:var(--faint);font:8px Consolas,monospace;line-height:1.7;pointer-events:none}.hud b{color:var(--cyan);font-weight:400}
+.status{position:absolute;left:15px;bottom:13px;color:var(--faint);font:8px Consolas,monospace;line-height:1.6;pointer-events:none}
+#info h2{font-size:15px;margin:3px 0 2px}.cn{font-size:10px;color:var(--gold);margin-bottom:7px}#info p{font-size:9px;line-height:1.65;color:var(--muted)}.stat{font:8px Consolas,monospace;color:var(--faint);line-height:1.8}
+.slider{display:grid;grid-template-columns:1fr auto;gap:3px 7px;margin:6px 0;color:var(--faint);font-size:8px}.slider input{grid-column:1/-1;width:100%;accent-color:var(--cyan)}
+.badge{display:inline-block;border:1px solid rgba(216,179,107,.4);color:var(--gold);padding:3px 6px;font-size:8px;margin-top:6px}
+.group-head{display:flex;align-items:center;justify-content:space-between;gap:6px}.group-head h2{margin:0}.group-actions{display:flex;gap:3px}.group-actions button{padding:2px 4px;font-size:7px;line-height:1.2}.edu{margin-top:8px;border-top:1px solid rgba(35,56,76,.7);padding-top:6px}.edu-row{display:grid;grid-template-columns:34px 1fr;gap:5px;padding:4px 0;border-bottom:1px solid rgba(35,56,76,.35)}.edu-row span{font:7px Consolas,monospace;color:var(--cyan);letter-spacing:.06em}.edu-row p{margin:0;font-size:8px;line-height:1.55;color:var(--muted)}
+.search{width:100%;margin:0 0 6px;padding:6px 7px;border:1px solid var(--line);background:#08131f;color:var(--text);font:9px "Segoe UI","Microsoft YaHei UI",sans-serif;outline:none}.search:focus{border-color:var(--cyan)}
+.group-count{font:8px Consolas,monospace;color:var(--faint);margin-left:auto;margin-right:4px}
+.know-tabs{display:flex;gap:3px;margin:7px 0 5px}.know-tabs button{flex:1;padding:4px 2px;font-size:8px}.know-tabs button.on{color:var(--gold);border-color:var(--gold)}
+.chip{display:inline-block;margin:2px 3px 2px 0;padding:2px 5px;border:1px solid var(--line);background:#0a1522;color:var(--cyan);font-size:8px;cursor:pointer}.chip:hover{border-color:var(--cyan)}
+.edu{max-height:300px;overflow:auto;padding-right:2px}.full-link{margin-top:7px;width:100%;padding:5px;border:1px solid rgba(216,179,107,.35);background:rgba(216,179,107,.05);color:var(--gold);font-size:8px;cursor:pointer}
+.quiz{padding:5px 0;border-bottom:1px solid rgba(35,56,76,.45);font-size:8px;line-height:1.55}.quiz b{color:var(--text);font-weight:500}.quiz details{margin-top:3px}.quiz summary{color:var(--cyan);cursor:pointer;font-size:8px}.quiz p{margin:3px 0 0;color:var(--muted)}
+.modal{position:fixed;inset:0;z-index:50;background:rgba(2,8,14,.78);display:flex;align-items:center;justify-content:center}.modal[hidden]{display:none}.modal-card{position:relative;width:min(720px,calc(100vw - 32px));max-height:86vh;overflow:auto;background:#0b1826;border:1px solid #2b455b;padding:20px 22px;box-shadow:0 20px 60px rgba(0,0,0,.5)}.modal-close{position:sticky;top:0;float:right;margin-left:10px}.modal-title{font-size:19px;color:var(--text);margin:0 0 2px;padding-right:50px}.modal-body{font-size:11px;line-height:1.75;color:var(--muted)}.modal-body h3{font-size:18px;color:var(--gold);margin:3px 0 5px}.modal-body h4{font-size:10px;color:var(--cyan);letter-spacing:.08em;margin:14px 0 4px;text-transform:uppercase}.modal-body p,.modal-body li{font-size:11px;line-height:1.75}.modal-body ul{margin:3px 0;padding-left:17px}.modal-body .know-kicker{font:8px Consolas,monospace;color:var(--faint);margin-bottom:4px}.know-lead{color:var(--text);font-size:12px;border-left:2px solid var(--gold);padding-left:8px}.disclaimer{font-size:8px;color:var(--faint);border-top:1px solid var(--line);padding-top:8px;margin-top:16px}
+/* V9 readability + four-chamber overrides */
+#info{padding:20px 20px 24px;overflow:auto}
+#info .eyebrow{font-size:9px;letter-spacing:.12em}
+#info h2{font-size:24px;line-height:1.15;margin:6px 0 3px}
+#info .cn{font-size:11px;line-height:1.55;margin-bottom:10px}
+#info p{font-size:13px;line-height:1.7;color:#c2d0dd}
+#info .stat{font-size:11px;line-height:1.75}
+#info .section h2{font-size:10px;letter-spacing:.12em;margin-bottom:8px}
+#info .badge{font-size:9px;padding:4px 7px;margin:8px 0}
+.edu{max-height:none;overflow:visible;padding:0;margin-top:10px;border-top:0}
+.edu-row{grid-template-columns:52px 1fr;gap:8px;padding:7px 0;border-bottom:1px solid rgba(35,56,76,.55)}
+.edu-row span{font-size:9px;line-height:1.5;padding-top:2px}
+.edu-row p{font-size:13px;line-height:1.65;color:#c7d4df}
+.know-tabs{gap:4px;margin:10px 0 5px;position:sticky;top:0;background:#0b1826;padding:2px 0;z-index:2}
+.know-tabs button{font-size:11px;padding:6px 3px;letter-spacing:.02em}
+.full-link{font-size:10px;padding:8px;margin-top:10px;letter-spacing:.03em}
+.chip{font-size:10px;padding:3px 7px;margin:3px 4px 3px 0}
+.quiz{font-size:12px;padding:8px 0;line-height:1.65}.quiz b{font-size:12px}.quiz summary{font-size:11px}.quiz p{font-size:12px}
+.group-head{min-height:19px;margin-top:2px}.group-head h2{font-size:9px}.group-count{font-size:9px}.group-actions button{font-size:8px;padding:3px 5px}
+.search{font-size:11px;padding:8px;margin-bottom:8px}
+.meta{margin-top:14px;border-top:1px solid var(--line);padding-top:10px}.meta summary{cursor:pointer;font:9px Consolas,monospace;color:var(--faint);letter-spacing:.08em;list-style:none}.meta summary::-webkit-details-marker{display:none}.meta summary::before{content:"▸ ";color:var(--cyan)}.meta[open] summary::before{content:"▾ "}.meta .section{margin:8px 0 0}
+.modal-card{width:min(840px,calc(100vw - 48px));padding:26px 30px}.modal-title{font-size:24px}.modal-body{font-size:14px;line-height:1.8}.modal-body h3{font-size:22px}.modal-body h4{font-size:11px;margin:18px 0 5px}.modal-body p,.modal-body li{font-size:14px}.modal-body ul{padding-left:20px}.modal-body .know-lead{font-size:15px}.modal-close{font-size:10px;padding:7px 10px}
+@media (max-width: 1280px){#app{grid-template-columns:270px minmax(0,1fr) 360px}#info{padding:16px}.modal-card{width:calc(100vw - 28px)}}
+.chamber-labels{position:absolute;inset:0;pointer-events:none;z-index:4}.chamber-labels[hidden]{display:none}.chamber-labels>div[data-chamber]{position:absolute;transform:translate(-50%,-50%);padding:5px 9px;border:1px solid rgba(255,255,255,.35);background:rgba(5,15,25,.82);color:#fff;font:12px "Segoe UI","Microsoft YaHei UI",sans-serif;white-space:nowrap;border-radius:2px;box-shadow:0 2px 12px rgba(0,0,0,.4)}.chamber-labels b{font:9px Consolas,monospace;color:#8ff3ff;margin-left:3px}.chamber-labels [data-chamber="la"]{border-color:#5b7fc7}.chamber-labels [data-chamber="ra"]{border-color:#58b7a6}.chamber-labels [data-chamber="lv"]{border-color:#d96767}.chamber-labels [data-chamber="rv"]{border-color:#e4a46a}.flow-legend{position:absolute;left:16px;bottom:40px;font:11px "Segoe UI","Microsoft YaHei UI",sans-serif;color:#c7d4df;background:rgba(5,15,25,.75);padding:5px 9px;border-left:2px solid #6fd3f2}
+</style>
+</head>
+<body>
+<div id="app">
+<aside>
+<h1>CardioTwin FINAL</h1><div class="eyebrow">FINAL HEART · 50 STRUCTURES</div>
+<div class="warn">最终候选模型含 50 个结构。房间隔、心耳来自已存在候选几何；降主动脉、弓上分支、头臂静脉汇合、OM 为基于实际源端点的派生几何，全部 PENDING。</div>
+<div class="section"><h2>VIEW</h2><div class="buttons"><button data-view="front">正面</button><button data-view="back">背面</button><button data-view="left">左侧</button><button data-view="right">右侧</button><button data-view="top">顶部</button><button data-view="internal">内部</button><button data-view="chambers">四腔</button><button data-view="exploded">爆炸</button><button data-view="reset">重置</button></div></div>
+<div class="section"><h2>TRANSPARENT</h2><div class="buttons" id="opacityLevels"><button data-opacity="100" class="on">100%</button><button data-opacity="75">75%</button><button data-opacity="50">50%</button><button data-opacity="30">30%</button><button data-opacity="15">15%</button><button data-opacity="0">0%</button></div></div>
+<div class="section"><h2>EXPLODED · EXISTING CONTROLLER</h2><div class="buttons"><button data-level="1" class="on">L1</button><button data-level="2">L2</button><button data-level="3">L3</button><span class="stat" id="explodeLevelOut">L1</span></div><label class="slider"><span>拆解程度</span><output id="explodeOut">0%</output><input id="explodeRange" type="range" min="0" max="100" value="0" /></label><div class="buttons"><button id="explodePause">暂停</button><button data-speed="0.5">0.5×</button><button data-speed="1">1×</button><button data-speed="1.5">1.5×</button><button data-speed="2">2×</button><button id="explodeRestore">恢复</button></div></div>
+<div class="section"><h2>3D CLIP</h2><div class="buttons"><button data-clip="x">X</button><button data-clip="y">Y</button><button data-clip="z">Z</button><button data-clip="off" class="on">关闭</button></div><label class="slider"><span>剖切位置</span><output id="clipOut">50%</output><input id="clipRange" type="range" min="0" max="100" value="50" /></label><label style="display:flex;align-items:center;gap:6px;color:var(--faint);font-size:8px"><input id="clipReverse" type="checkbox" />反向剖切</label></div><div class="section"><h2>ISOLATE</h2><div class="buttons"><button id="isolateBtn">隔离选中</button><button id="singleBtn">单结构展开</button><button id="groupBtn">单系统展开</button><button id="showAllBtn">显示全部</button></div></div>
+<div class="section"><h2>STRUCTURE INDEX</h2><input id="search" class="search" type="search" placeholder="搜索中文 / English / ID" autocomplete="off" /><div id="list"></div></div>
+</aside>
+<main id="stage"><canvas id="viewer"></canvas><div id="chamberLabels" class="chamber-labels" hidden><div data-chamber="la">左心房 <b>LA</b></div><div data-chamber="ra">右心房 <b>RA</b></div><div data-chamber="lv">左心室 <b>LV</b></div><div data-chamber="rv">右心室 <b>RV</b></div><div class="flow-legend">蓝：静脉回流 · 红：动脉输出</div></div><div class="hud" id="hud">FINAL · <b>50 STRUCTURES</b></div><div class="status" id="status">loading…</div></main>
+<aside id="info"><div class="eyebrow">SELECTED STRUCTURE</div><h2 id="selName">—</h2><div class="cn" id="selCn">选择结构</div><p id="selDesc">左侧结构索引或直接点击模型。</p><div id="edu" class="edu"></div><div class="badge">PENDING / DERIVED</div>
+<details class="meta"><summary>模型摘要与缺口</summary><div class="section"><h2>SUMMARY</h2><div class="stat" id="summary">loading…</div></div><div class="section"><h2>MISSING / NOT FAKED</h2><div class="stat">已按勾选删除 8 个结构<br>当前保留 50 个<br>派生结构 · 医学审核 pending</div></div></details>
+</aside>
+</div>
+<div id="knowModal" class="modal" hidden><div class="modal-card"><button id="knowModalClose" class="modal-close">关闭</button><div id="knowModalTitle" class="modal-title"></div><div id="knowModalBody" class="modal-body"></div></div></div>
+<script type="module">
+/*__BUNDLE__*/
+</script>
+</body></html>

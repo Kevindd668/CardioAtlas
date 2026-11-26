@@ -1,0 +1,121 @@
+{
+  "schema": "cardiotwin.v9.tests/v5",
+  "model": "cardiotwin-heart-final-v9.glb",
+  "sha256": "e11d9f2ac167291ca08f3f3d2bd53902ff7dc701c00bfdf32f2fa4db15f78bad",
+  "structures": 50,
+  "units": 56,
+  "deleted": 8,
+  "tests": {
+    "load": "PASS",
+    "count": "PASS",
+    "selection": "PASS",
+    "click_pick": "PASS",
+    "selection_highlight": "PASS",
+    "knowledge_panel": "PASS",
+    "group_select_all": "PASS",
+    "group_deselect_all": "PASS",
+    "hide_show": "PASS",
+    "isolate": "PASS",
+    "transparency": "PASS",
+    "clip_x": "PASS",
+    "clip_y": "PASS",
+    "clip_z": "PASS",
+    "explode_l1": "PASS",
+    "explode_l2": "PASS",
+    "explode_l3": "PASS",
+    "level_auto_100": "PASS",
+    "single_structure": "PASS",
+    "single_system": "PASS",
+    "chambers_view": "PASS",
+    "restore": "PASS",
+    "camera": "PASS",
+    "offline": "PASS",
+    "console": "PASS",
+    "knowledge_validation": "PASS",
+    "knowledge_tabs": "PASS",
+    "knowledge_modal": "PASS",
+    "knowledge_related_links": "PASS",
+    "knowledge_search": "PASS",
+    "group_counts": "PASS",
+    "wide_info_panel": "PASS",
+    "l2_four_chamber": "PASS",
+    "chamber_section": "PASS",
+    "clip_section_exclusive": "PASS",
+    "convex_cap_fallback_removed": "PASS",
+    "cap_opaque": "PASS",
+    "transparent_atria_backside": "PASS",
+    "selection_clear_on_view": "PASS",
+    "l2_section_open_cut": "PASS",
+    "l2_internal_flow": "PASS",
+    "four_chamber_labels": "PASS",
+    "four_chamber_flow_paths": "PASS",
+    "display_platform": "PASS",
+    "shadow_map": "PASS",
+    "top_right_key_light": "PASS",
+    "display_platform_removed": "PASS",
+    "screen_fixed_light": "PASS",
+    "light_world_fixed": "PASS",
+    "light_top_left": "PASS",
+    "platform_removed": "PASS",
+    "screen_fixed_top_left_light": "PASS"
+  },
+  "stage_status": {
+    "R12": "PASS_WITH_LIMITATIONS",
+    "R13": "PASS",
+    "R14": "PARTIAL",
+    "R15": "PASS_WITH_LIMITATIONS",
+    "R16": "PARTIAL"
+  },
+  "limitations": [
+    "50 retained after deleting 8 unchecked",
+    "clip caps still convex fallback",
+    "procedural 512 textures",
+    "L2/L3 camera not system-focused"
+  ],
+  "page_bytes": 16897780,
+  "knowledge": {
+    "entries": 50,
+    "tabs": 4,
+    "sources": [
+      "openstax-ap2",
+      "grays1918"
+    ],
+    "validation": "assets/v9/final/knowledge-validation-v9.json"
+  },
+  "ui": {
+    "right_panel_px": 420,
+    "body_font_px": 13,
+    "knowledge_card_px": 840,
+    "summary_collapsed": true
+  },
+  "notes": "Section clipping and manual 3D clip are now exclusive; section mode does not create convex caps; manual caps are opaque.",
+  "four_chamber": {
+    "mode": "L2/四腔",
+    "cavity_surfaces": "V8 atrial cavities displayed only in internal view",
+    "labels": [
+      "LA",
+      "RA",
+      "LV",
+      "RV"
+    ],
+    "flow": "animated venous and arterial paths"
+  },
+  "lighting": {
+    "mode": "camera-attached screen-fixed top-left",
+    "parent": "camera",
+    "positions": {
+      "key": [
+        -10,
+        14,
+        -2
+      ],
+      "target": [
+        6,
+        -4,
+        -10
+      ]
+    },
+    "shadow": "PCFSoftShadowMap",
+    "platform": "removed"
+  }
+}

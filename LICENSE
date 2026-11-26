@@ -1,0 +1,43 @@
+Copyright (c) 2026 心图 CardioAtlas / CardioTwin V9. All rights reserved.
+
+PROPRIETARY LICENSE — NO OPEN-SOURCE RIGHTS GRANTED
+
+This repository and all of its contents, including but not limited to source code,
+3D models, meshes, textures, materials, HTML pages, screenshots, configuration,
+reports, anatomical descriptions, educational text, and documentation, are
+proprietary and protected by copyright and related rights.
+
+No permission or license is granted to any person or organization to:
+
+1. copy, reproduce, download, mirror, archive, or store all or any part of this
+   repository or its contents;
+2. use all or any part of this repository for commercial purposes, including paid
+   courses, commercial training, product integration, consulting, advertising,
+   SaaS, or any revenue-generating activity;
+3. sell, resell, rent, license, sublicense, or otherwise transfer this repository
+   or its contents for consideration;
+4. distribute, publish, upload, share, embed, or make available all or any part of
+   this repository to any third party, whether for free or for payment;
+5. modify, adapt, translate, reverse engineer, disassemble, extract sub-models, or
+   create derivative works;
+6. remove or alter any copyright, disclaimer, attribution, or version notice;
+7. use this repository or its contents to train, fine-tune, evaluate, or otherwise
+   develop artificial intelligence or machine-learning models.
+
+Viewing this repository on GitHub and running the published offline demonstration
+for personal, non-commercial learning is permitted only to the extent GitHub's
+terms and applicable law require. No other rights are granted.
+
+Any use beyond the foregoing requires prior written permission from the copyright
+holder.
+
+THE CONTENTS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, ANATOMICAL ACCURACY, MEDICAL CORRECTNESS, OR NON-INFRINGEMENT.
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM THE USE OF THE CONTENTS.
+
+Third-party libraries, data, and assets remain subject to their own licenses. This
+notice does not override any third-party license.
+
+For licensing or permission requests, contact the repository owner.

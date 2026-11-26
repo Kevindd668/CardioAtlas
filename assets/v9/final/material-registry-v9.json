@@ -1,0 +1,10 @@
+{
+  "schema": "cardiotwin.v9.materials/v5",
+  "structures": 50,
+  "glb_bytes": 11672584,
+  "html_bytes": 16188174,
+  "normal_maps": true,
+  "roughness_maps": true,
+  "ao_maps": true,
+  "texture_size": 512
+}
