@@ -176,7 +176,7 @@ function updateClip(){
 }
 function setClip(axis:'x'|'y'|'z'|'off',pos=.5,reverse=false){if(selected)select(null);applySection(false);clipAxis=axis==='off'?clipAxis:axis;clipPos=pos;clipReverse=reverse;clipEnabled=axis!=='off';if(document.getElementById("clipOut"))document.getElementById("clipOut")!.textContent=Math.round(pos*100)+"%";document.querySelectorAll("[data-clip]").forEach(x=>x.classList.toggle("on",(x as HTMLElement).dataset.clip===(clipEnabled?clipAxis:"off")));updateClip();}
 
-async function boot(){statusEl.textContent="loading integrated heart…";const gltf=await new GLTFLoader().loadAsync("https://gh-proxy.com/https://raw.githubusercontent.com/Kevindd668/CardioAtlas/main/assets/v9/final/cardiotwin-heart-web.glb");root=gltf.scene;root.traverse((o:any)=>{if(o.isMesh){
+async function boot(){statusEl.textContent="loading integrated heart…";const gltf=await new GLTFLoader().loadAsync("cardiotwin-heart-final-v9.glb");root=gltf.scene;root.traverse((o:any)=>{if(o.isMesh){
   o.geometry.computeVertexNormals();
   const old=o.material;
   if(true){
@@ -203,7 +203,7 @@ async function boot(){statusEl.textContent="loading integrated heart…";const g
   }
   o.castShadow=true;o.receiveShadow=true;o.material.flatShading=false;o.material.needsUpdate=true;meshes.push(o);
  }});scene.add(root);
- const cav=await new GLTFLoader().loadAsync("https://gh-proxy.com/https://raw.githubusercontent.com/Kevindd668/CardioAtlas/main/assets/v9/working/atrial-cavities.glb");internalRoot=cav.scene;internalRoot.name="InternalCavities";internalRoot.visible=false;internalRoot.traverse((o:any)=>{if(o.isMesh){const isLeft=o.name.includes("left");const mat=new THREE.MeshBasicMaterial({color:new THREE.Color(isLeft?0x5b7fc7:0x58b7a6),transparent:true,opacity:.16,side:THREE.BackSide,depthWrite:false});o.material=mat;o.renderOrder=2;internalMeshes.push(o);}});scene.add(internalRoot);buildFlow();
+ const cav=await new GLTFLoader().loadAsync("../working/atrial-cavities.glb");internalRoot=cav.scene;internalRoot.name="InternalCavities";internalRoot.visible=false;internalRoot.traverse((o:any)=>{if(o.isMesh){const isLeft=o.name.includes("left");const mat=new THREE.MeshBasicMaterial({color:new THREE.Color(isLeft?0x5b7fc7:0x58b7a6),transparent:true,opacity:.16,side:THREE.BackSide,depthWrite:false});o.material=mat;o.renderOrder=2;internalMeshes.push(o);}});scene.add(internalRoot);buildFlow();
  buildList();bind();setView("front");statusEl.textContent=`loaded · ${meshes.length} structures · ${meshes.length} formal meshes`;document.getElementById("summary")!.textContent=`${meshes.length} structures · 6 groups · 8 deleted by user`;}
 boot().catch(e=>{console.error(e);statusEl.textContent=`LOAD FAILED: ${e.message}`;});
 function animate(t=0){requestAnimationFrame(animate);controls.update();explode?.update(1/60);if(selected){const mats=Array.isArray(selected.material)?selected.material:[selected.material];const p=.55+.25*(.5+.5*Math.sin(t*.005));for(const m of mats)if(m instanceof THREE.MeshStandardMaterial)m.emissiveIntensity=p;selectionOutline?.setFromObject(selected);}if(chambersActive){flowDots.forEach((d,i)=>{const u=(t*.00016+i*.14)%1;d.mesh.position.copy(d.curve.getPointAt(u));});updateChamberLabels();}renderer.render(scene,camera);}animate();
