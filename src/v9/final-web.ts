@@ -176,10 +176,11 @@ function updateClip(){
 }
 function setClip(axis:'x'|'y'|'z'|'off',pos=.5,reverse=false){if(selected)select(null);applySection(false);clipAxis=axis==='off'?clipAxis:axis;clipPos=pos;clipReverse=reverse;clipEnabled=axis!=='off';if(document.getElementById("clipOut"))document.getElementById("clipOut")!.textContent=Math.round(pos*100)+"%";document.querySelectorAll("[data-clip]").forEach(x=>x.classList.toggle("on",(x as HTMLElement).dataset.clip===(clipEnabled?clipAxis:"off")));updateClip();}
 
-async function boot(){statusEl.textContent="loading integrated heart…";const gltf=await new GLTFLoader().loadAsync("cardiotwin-heart-final-v9.glb");root=gltf.scene;root.traverse((o:any)=>{if(o.isMesh){
+async function boot(){statusEl.textContent="loading integrated heart…";const gltf=await new GLTFLoader().loadAsync("cardiotwin-heart-web.glb");root=gltf.scene;root.traverse((o:any)=>{if(o.isMesh){
+  o.geometry.computeVertexNormals();
   const old=o.material;
-  if(old&&old.isMeshStandardMaterial){
-   const nm=o.name||'';let baseCol=old.color.clone();
+  if(true){
+   const nm=o.name||'';let baseCol=old?.color?old.color.clone():new THREE.Color(0x8f3b42);
    if(nm.includes('leaflet')||nm.includes('cusp'))baseCol=new THREE.Color('#e8dcc6');
    else if(nm.includes('chordae'))baseCol=new THREE.Color('#ded3bd');
    else if(nm.includes('annulus'))baseCol=new THREE.Color('#cfc6b4');
@@ -193,13 +194,13 @@ async function boot(){statusEl.textContent="loading integrated heart…";const g
    else if(nm.includes('vena')||nm.includes('brachiocephalic_vein'))baseCol=new THREE.Color('#2f5069');
    else if(nm.includes('pulmonary_vein'))baseCol=new THREE.Color('#744154');
    else if(nm.includes('coronary')||nm.includes('lad')||nm.includes('lcx')||nm.includes('pda'))baseCol=new THREE.Color('#a72f35');
-   const m=new THREE.MeshPhysicalMaterial({color:baseCol,map:old.map,normalMap:old.normalMap,roughnessMap:old.roughnessMap,aoMap:old.aoMap,metalness:0,roughness:1,side:THREE.DoubleSide,transparent:old.transparent,opacity:old.opacity,vertexColors:old.vertexColors});
+   const m=new THREE.MeshPhysicalMaterial({color:baseCol,map:old?.map??null,normalMap:old?.normalMap??null,roughnessMap:old?.roughnessMap??null,aoMap:old?.aoMap??null,metalness:0,roughness:1,side:THREE.DoubleSide,transparent:false,opacity:1,vertexColors:false});
    const ns=nm.includes('leaflet')||nm.includes('cusp')?.34:nm.includes('chordae')||nm.includes('annulus')?.42:nm.includes('coronary')||nm.includes('lad')||nm.includes('lcx')?.20:nm.includes('artery')||nm.includes('vein')||nm.includes('vena')||nm.includes('aorta')||nm.includes('pulmonary')?.22:.18;m.normalScale.set(ns,ns);
    m.clearcoat=.04;m.clearcoatRoughness=.75;m.sheen=.12;m.sheenRoughness=.7;m.sheenColor=new THREE.Color(0xffd9cf);
    m.envMapIntensity=.35;
    if(m.aoMap&&!o.geometry.attributes.uv2&&o.geometry.attributes.uv)o.geometry.setAttribute('uv2',o.geometry.attributes.uv);
    o.material=m;
-  } else if(old){old.side=THREE.DoubleSide;old.metalness=0;}
+  }
   o.castShadow=true;o.receiveShadow=true;o.material.flatShading=false;o.material.needsUpdate=true;meshes.push(o);
  }});scene.add(root);
  const cav=await new GLTFLoader().loadAsync("../working/atrial-cavities.glb");internalRoot=cav.scene;internalRoot.name="InternalCavities";internalRoot.visible=false;internalRoot.traverse((o:any)=>{if(o.isMesh){const isLeft=o.name.includes("left");const mat=new THREE.MeshBasicMaterial({color:new THREE.Color(isLeft?0x5b7fc7:0x58b7a6),transparent:true,opacity:.16,side:THREE.BackSide,depthWrite:false});o.material=mat;o.renderOrder=2;internalMeshes.push(o);}});scene.add(internalRoot);buildFlow();
